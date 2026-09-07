@@ -28,58 +28,57 @@ body {                              /*coola Bakgrunden*/
 
   }
   .box1 {                      /*HÄR ÄR ändrar du UTSEENDE på svarta fyrkanten "*/
-  max-width: 90%;                 /*hur bred den can vara*/
-  margin: 6px;                   /* så den blir i center på sidan*/
+  max-width: 80%;                 /*hur bred den can vara*/
+  margin: 10px auto;                   /* så den blir i center på sidan*/
   background: black;              /*gö baras så den fyller i den svart*/
   border: 6px ridge #21c01b;      /* den tjocka  GRÖNA bordern, RIDGE gör så den blir fake 3D esk */
-  padding: 20px;  
-                    /* mellanrum mellan kanten och allt innehåll i den */
+  padding: 20px;                 /* mellanrum mellan kanten och allt innehåll i den */
 }
 .box2 {
-  max-width: 80%;
+  max-width: 70%;
   margin: 10px auto;
   background: black;
   border: 6px ridge #21c01b;
   padding: 20px;
 }
 .box3 {
-  max-width: 70%;
-  margin: 0 auto;
+  max-width: 60%;
+  margin: 10px auto;
   background: black;
   border: 6px ridge #21c01b;
   padding: 20px;
 }
 .box4 {
-  max-width: 60%;
-  margin: 0 auto;
+  max-width: 50%;
+  margin: 10px auto;
   background: black;
   border: 6px ridge #21c01b;
   padding: 20px;
 }
 .box5 {
-  max-width: 50%;
-  margin: 0 auto;
+  max-width: 40%;
+  margin: 10px auto;
   background: black;
   border: 6px ridge #21c01b;
   padding: 20px;
 }
 .box6 {
-  max-width: 40%;
-  margin: 0 auto;
+  max-width: 30%;
+  margin: 10px auto;
   background: black;
   border: 6px ridge #21c01b;
   padding: 20px;
 }
 .box7 {
-  max-width: 30%;
-  margin: 0 auto;
+  max-width: 20%;
+  margin: 1px auto;
   background: black;
   border: 6px ridge #21c01b;
   padding: 20px;
 }
 .box8 {
-  max-width: 20%;
-  margin: 0 auto;
+  max-width: 10%;
+  margin: 10px auto;
   background: black;
   border: 6px ridge #21c01b;
   padding: 20px;
