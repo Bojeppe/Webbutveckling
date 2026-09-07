@@ -1,0 +1,69 @@
+h1   {color: rgb(247, 0, 255);font-family: "Comic Sans MS", cursive, sans-serif;font-size: 600%;}
+
+
+* { box-sizing: border-box; }
+
+  body {
+    background-color: #00610d;
+    background-image: repeating-linear-gradient(45deg, #32aa03 0px, #1dc734 20px, #03aa19 20px, #03aa19 40px);
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+  
+
+
+ .bodyArea {
+  display: flex;
+  flex:auto; /* justera efter behov */
+}
+  /*TOPBARENS INNEHÅLL*/
+  .topbar {
+    background-color: #a36719;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /*SIDEBARENS INNEHÅLL*/
+  .sidebar {
+  width: 200px;
+  background-color: #00ff88;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  }
+  
+
+ /*SAKER TILL ring knapparna + hora över dom + färg + storlek*/
+  .dot {
+    width: 82px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+  }
+ 
+  .dot:hover {
+    opacity: 0.85;
+  }
+ 
+  .orange { background-color: #f5821f; }
+  .brown  { background-color: #a83e10; }
+  .green  { background-color: #2ea44f; }
+  .blue   { background-color: #3d4dc4; }
+ 
+  .content {
+    flex: 1;
+    min-height: 650px;
+  }
+
+

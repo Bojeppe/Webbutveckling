@@ -1,0 +1,14 @@
+body {background-color: rgb(126, 226, 11);}
+
+
+h1   {
+    color: rgb(247, 0, 255);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 600%;
+    border: 5px solid rgb(0, 47, 255);
+    padding: 5px;
+}
+p    {
+    color: red;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}

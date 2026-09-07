@@ -1,0 +1,5 @@
+let numb1 = 100; // blir 100
+let numb2 = 50; // sätter 50
+numb1 += numb2; // 100 + 50 = 150 
+console.log(numb1); // Output: 150     //skriv ut värdet av numb1
+

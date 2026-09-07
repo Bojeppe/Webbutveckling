@@ -1,0 +1,86 @@
+* { box-sizing: border-box; }
+
+body {                              /*coola Bakgrunden*/
+    background-color: #00610d;    /*bakgrundsfärg eller BASSSS FÄRGEN*/
+    background-image: repeating-linear-gradient(45deg, #32aa03 0px, #1dc734 20px, #03aa19 20px, #03aa19 40px); /*ritar en raklinje sen sätter jag bara färger där pixeln*/
+    margin: 0;
+    font-family: Arial, sans-serif;  /*FONT*/
+  }
+
+  
+  .rainbow-bar {                    /*HÄR ÄR REGNBÅGSFÄRGADE LINJEN*/
+    height:20px;                    /*höjden*/
+    width: 100%;                    /*bredden*/
+    background:repeating-linear-gradient(45deg, red, red 15%, orange 15%, orange 30%, yellow 30%, yellow 45%,   /*gör så bakgrunden blir regnbågsfärgad */
+    green 45%, green 60%, blue 60%, blue 75%, indigo 75%, indigo 90%, violet 90%, violet 100%);
+    
+  }
+  .titlebar{
+    background: linear-gradient(90deg, #808080, #c0c0c0);
+    border: 3px outset #c0c0c0;
+    padding: 5px 10px;
+    color: black;
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+
+  }
+  .box1 {                      /*HÄR ÄR ändrar du UTSEENDE på svarta fyrkanten "*/
+  max-width: 90%;                 /*hur bred den can vara*/
+  margin: 6px;                   /* så den blir i center på sidan*/
+  background: black;              /*gö baras så den fyller i den svart*/
+  border: 6px ridge #21c01b;      /* den tjocka  GRÖNA bordern, RIDGE gör så den blir fake 3D esk */
+  padding: 20px;  
+                    /* mellanrum mellan kanten och allt innehåll i den */
+}
+.box2 {
+  max-width: 80%;
+  margin: 10px auto;
+  background: black;
+  border: 6px ridge #21c01b;
+  padding: 20px;
+}
+.box3 {
+  max-width: 70%;
+  margin: 0 auto;
+  background: black;
+  border: 6px ridge #21c01b;
+  padding: 20px;
+}
+.box4 {
+  max-width: 60%;
+  margin: 0 auto;
+  background: black;
+  border: 6px ridge #21c01b;
+  padding: 20px;
+}
+.box5 {
+  max-width: 50%;
+  margin: 0 auto;
+  background: black;
+  border: 6px ridge #21c01b;
+  padding: 20px;
+}
+.box6 {
+  max-width: 40%;
+  margin: 0 auto;
+  background: black;
+  border: 6px ridge #21c01b;
+  padding: 20px;
+}
+.box7 {
+  max-width: 30%;
+  margin: 0 auto;
+  background: black;
+  border: 6px ridge #21c01b;
+  padding: 20px;
+}
+.box8 {
+  max-width: 20%;
+  margin: 0 auto;
+  background: black;
+  border: 6px ridge #21c01b;
+  padding: 20px;
+}

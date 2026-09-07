@@ -1,0 +1,11 @@
+let target = Math.floor(Math.random() * 10) + 1;
+let gissning;
+
+do {
+  gissning = parseInt(prompt("Gissa ett värde mellan 1 och 10:"));
+  if (gissning === target) {
+    alert("DU VAN");
+  } else {
+    alert("Fel, försök igen!");
+  }
+} while (gissning !== target);
