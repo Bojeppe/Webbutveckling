@@ -1,14 +1,14 @@
-function legs(sw) {
+function legs(gay) {
   var img = document.getElementById('myImage');
   var pic;
 
-  if (sw == 1) {
+  if (gay == 1) {
     pic = "sonic.gif";
-  } else if (sw == 2) {
+  } else if (gay == 2) {
     pic = "emoj.gif";
-  } else if (sw == 3) {
+  } else if (gay == 3) {
     pic = "blue.gif";
-  } else if (sw == 4) {
+  } else if (gay == 4) {
     pic = "brown.gif";
   }
 

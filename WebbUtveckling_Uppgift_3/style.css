@@ -1,0 +1,28 @@
+.box-h1{
+    text-align: center;
+}
+
+body{
+    background-image:linear-gradient(90deg, red 20%, orange 30% ,orange 40% , yellow 50%,yellow 60%, green 70%,  green 80%);
+}
+
+h1{
+    color:rgb(1, 39, 121);
+    font-size:  130px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button1{
+    background-color: #61098a; /* Green */
+    border-color: rgb(123, 20, 192);
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+.button1:hover {
+    background-color: #882688;
+}
