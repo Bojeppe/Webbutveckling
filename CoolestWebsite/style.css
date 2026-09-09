@@ -2,7 +2,7 @@
 
 body {                              /*coola Bakgrunden*/
     background-color: #00610d;    /*bakgrundsfärg eller BASSSS FÄRGEN*/
-    background-image: repeating-linear-gradient(45deg, #32aa03 0px, #1dc734 20px, #03aa19 20px, #03aa19 40px); /*ritar en raklinje sen sätter jag bara färger där pixeln*/
+    background-image: repeating-linear-gradient(55deg, #32aa03 0px, #2adb42 20px, #03aa19 20px, #03aa19 40px); /*ritar en raklinje sen sätter jag bara färger där pixeln*/
     margin: 0;
     font-family: Arial, sans-serif;  /*FONT*/
   }
@@ -27,6 +27,14 @@ body {                              /*coola Bakgrunden*/
     margin: 10px;
 
   }
+
+h1{
+  color:blue;
+  text-align: center;
+  text-shadow: 3px 3px 0 cornflowerblue, -2px -2px 0 rgb(46, 82, 182);
+  font-size: 35px;
+  }
+
   .container {                      /*HÄR ÄR ändrar du UTSEENDE på svarta fyrkanten "*/
   max-width: 800px;                 /*hur bred den kan vara*/
   margin: 0 auto;                   /* så den blir i center på sidan*/
@@ -35,9 +43,14 @@ body {                              /*coola Bakgrunden*/
   padding: 20px;                    /* mellanrum mellan kanten och allt innehåll i den */
 }
 
-
-
-
+.working-progress{                  /*"Sidan är en Working Progress Containern"*/
+   color:blue;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border: 4px dashed rgb(218, 166, 23);
+  background-color: #1e1f1e;
+}
 /*ALIEN SIDAN*/
 .box1 {                      /*HÄR ÄR ändrar du UTSEENDE på svarta fyrkanten "*/
   max-width: 80%;                 /*hur bred den can vara*/
