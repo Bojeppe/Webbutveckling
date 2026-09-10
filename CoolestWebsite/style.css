@@ -5,6 +5,7 @@ body {                              /*coola Bakgrunden*/
     background-image: repeating-linear-gradient(55deg, #32aa03 0px, #2adb42 20px, #03aa19 20px, #03aa19 40px); /*ritar en raklinje sen sätter jag bara färger där pixeln*/
     margin: 0;
     font-family: Arial, sans-serif;  /*FONT*/
+    color:gold;
   }
 
   
@@ -19,7 +20,7 @@ body {                              /*coola Bakgrunden*/
     background: linear-gradient(90deg, #808080, #c0c0c0);
     border: 3px outset #c0c0c0;
     padding: 5px 10px;
-    color: rgb(98, 224, 14);
+    color: rgb(0, 204, 255);
     font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
     font-weight: bold;
     text-align: center;
@@ -35,11 +36,24 @@ h1{
   font-size: 35px;
   }
 
+h2{
+color:rgb(0, 162, 255);
+}
+
+a{
+  color:purple;
+}
+
+p{
+  color: blue;
+  font-size: 15px;
+  font-weight: bold;
+}
   .container {                      /*HÄR ÄR ändrar du UTSEENDE på svarta fyrkanten "*/
   max-width: 800px;                 /*hur bred den kan vara*/
   margin: 0 auto;                   /* så den blir i center på sidan*/
   background: black;              /*gö baras så den fyller i den svart*/
-  border: 6px ridge #21c01b;      /* den tjocka  GRÖNA bordern, RIDGE gör så den blir fake 3D esk */
+  border: 6px ridge #0b8a06;      /* den tjocka  GRÖNA bordern, RIDGE gör så den blir fake 3D esk */
   padding: 20px;                    /* mellanrum mellan kanten och allt innehåll i den */
 }
 
@@ -50,7 +64,48 @@ h1{
   padding: 10px;
   border: 4px dashed rgb(218, 166, 23);
   background-color: #1e1f1e;
+  margin: 25px;
 }
+
+/*MAIN gröna navigerings fyrkanten med grejer i - Tabel*/
+
+table{                              /*grööna fyrkan YTRE*/
+  border: 6px ridge #1b9117;
+}
+
+td{
+  vertical-align: top;
+  padding:10px;
+}
+
+
+.meny-cell{
+  background: rgb(40, 192, 40);
+}
+
+.meny-cell a{                         /*ALLT SHIT i meny cell som är <a> */
+display: block;
+color:rgb(236, 144, 6);
+font-weight: bold;
+text-align: center;                   /*VÄLJ OM CENTER ELLER */
+background: rgb(204, 204, 204);
+border:4px outset gray;   
+text-decoration: none;                /*TAR BORT DEN DÄR JÄVLA LINJEN PÅ LÄNKARNA*/
+padding:4px;
+margin-bottom: 8px;
+}
+
+.meny-cell a:hover{                   /*Horar jag över knappen så ändras färgen på bakgrunden + texten*/
+  background: darkgray;
+  color:darkmagenta;
+}
+.navi-title{
+  font-weight: bold;
+  color:yellow;
+  margin-right: 10px;
+}
+
+
 /*ALIEN SIDAN*/
 .box1 {                      /*HÄR ÄR ändrar du UTSEENDE på svarta fyrkanten "*/
   max-width: 80%;                 /*hur bred den can vara*/
@@ -135,4 +190,36 @@ h1{
   top: 500px;            /* */
   right: 100px;           /* */
   width: 150px;          /* resize på giffen */
+}
+
+/*CODE SIDAN*/
+.navi-code{
+  background:rgb(49, 223, 49);
+}
+.navi-code a{
+display: block;
+color:rgb(236, 144, 6);
+font-weight: bold;
+text-align: center;                   /*VÄLJ OM CENTER ELLER */
+background: rgb(204, 204, 204);
+border:4px outset gray;   
+text-decoration: none;                /*TAR BORT DEN DÄR JÄVLA LINJEN PÅ LÄNKARNA*/
+padding:4px;
+margin-bottom: 8px;
+border-radius: 50%;
+}
+
+/*SwapText Knappen*/
+.button1 {
+    width: 78px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    border:4px outset gray;
+    background: rgb(204, 204, 204);
+    text-align: center;
+  }
+
+.button1:hover{
+opacity: 85%;
 }

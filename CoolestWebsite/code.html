@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css">
-        <title>Coolest Website - HOME</title>
+        <title>Coolest Website - CODE</title>
     </head>
 <body>
 
@@ -21,8 +21,8 @@
    
     <div class="container">                                 <!-- Det här är "svarta rutan i mitten av din skärm"   -->
         <h1>
-            Nisses Värsting Hemsida
-        </h1>
+            Nisse in HACKER CODER MODE
+        </h1> 
 
         <div class="working-progress">
             SIDAN ÄR EN WORKING PROGRESS!
@@ -35,28 +35,19 @@
                     <h2 class="navi-title">Navigering</h2>                <!-- Tjocka Gula Texten -->
                     <a href="index.html">🏠Home</a>
                     <a href="aliens.html">👽Aliens</a>
-                    <a href="code.html">💻Code</a>              <!-- SKAPA EN CODE HTML och byt ut #Code -->
+                    <a href="#code">💻Code</a>              <!-- SKAPA EN CODE HTML och byt ut #Code -->
                 </td>
 
-                <td>
-                    <h2>
-                        Om Mig
-                    </h2>
+                <td class="navi-code">
+                    <h2>INFO</h2>
+                    <p>Här har vi en massa scripter eller saker som gör något. ALLTSÅ SAKER SOM FUNKAR PÅGRUND utav JAVASCRIPT</p>
+                    <h2>Hellu Wurld</h2>
+                    <p id="swapME">Hello World!</p>
+                    <button class="button1" onclick="swapText()">SwapText</button>
 
-                    <p>
-                        Ja du här har vi min lustiga lilla hemsida. Uppdaterar denna för att lära mig HTML, CSS och Javascript.
-                        Blir mycket roliga saker som händer här medans jag lär mig!
-                    </p>
-
-                    <h2>
-                        COOLA LÄNKAR (Not)
-                    </h2>
-                    <ul>
-                        <li> <a href="#">Wow PUNK LISTA</a></li>            <!-- Bara att sätta in nå länkar sen-->
-                        <li> <a href="#">Värta Att Klicka PÅ</a></li>       <!-- Bara att sätta in nå länkar sen-->
-                        <li> <a href="#">GIFS!?</a></li>                    <!-- Bara att sätta in nå länkar sen-->
-                        <li> <a href="#">UPGRADE LATER!?</a></li>           <!-- Bara att sätta in nå länkar sen-->
-                    </ul>
+                    <h2>Tärning</h2>
+                    <p id="diceResultat">Du slog: </p>
+                    <button onclick="rollDice()"> 🎲 Rulla Tärning</button>
                 </td>
             </tr>
         </table>
