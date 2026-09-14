@@ -28,3 +28,5 @@ function myArrayFunction(value){sum += value;}        //basically functionen myA
 numbers.forEach(myArrayFunction);       //för varje nummer i arrayen basically 
 console.log("Summan är: " + sum);       //printas ut i konsolen
 console.log("----------------------------------")
+
+document.querySelector("#myID").style.backgroundColor = "Red";    // ändrar backgrund i DOM
