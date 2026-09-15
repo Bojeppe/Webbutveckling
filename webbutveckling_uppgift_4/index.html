@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Webbutveckling - Uppgift 4</title>
+  </head>
+  <body>
+    <h1>En ToDo LIST WEBB APP</h1>
+
+    <div class="boxForAll">
+        <label for="numbOfLists" >Skriv in något du vill lägga till: </label><br>
+        <input type="text" id="numbOfLists"><br>
+
+
+        <!-- UPPGIFTS LISTAN-->
+    <ul id="uppgiftLista"></ul>
+
+    <!--KNAPPEN SOM LÄGGER TILL-->
+    <button type="button" id="addListBtn"> Lägg till Lista</button>
+
+    </div>
+
+    <!--ANTAL KLARA-->
+    <div class="box2">
+        <h2>Antal Klara: <span id="antalKlara">0</span></h2>
+    </div>
+
+  <!-- -->
+
+    <script src="code.js"></script>
+  </body>
+</html>
