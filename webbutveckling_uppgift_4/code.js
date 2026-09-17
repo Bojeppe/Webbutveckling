@@ -1,5 +1,3 @@
-
-
 //deklarera variabler
 let uppgifter = [];                     //tom array
 
@@ -7,7 +5,8 @@ let uppgifter = [];                     //tom array
 const addKnapp = document.querySelector("#addListBtn");     //
 const input = document.querySelector("#numbOfLists");       // input = de som skrivs i numbOfLists/runta
 const ul = document.querySelector("#uppgiftLista");         //  ul = de som står i uppgiftlistan = DEN ÄR TOM I BÖRJAN
-const antalKlarH2 = document.querySelector("#antalKlara") 
+const antalKlarH2 = document.querySelector("#antalKlara");
+const noTextP =document.querySelector("#noText");
 
 
 //add hör grejern på knappen
@@ -49,9 +48,11 @@ function toggleKlar(event){
 
 function textCheck(){
         let text = input.value;             //text = input > de som skrivs in i numbOfLists som TEXT eller dens "VÄRDE"
+        
+        noTextP.textContent ="";            //nollställer felmedelandet varje gång den härfunk körs
 
         if(text.trim() === ""){             // OM texten tom oavsett om du bara HAR en massa MELLAN SLAG.  både typ å värdet ä tomt
-            alert("SKRIV IN NÅGOT! KAN INTE HA EN TOM TEXT");         //skrivs de här ut I EN POPUP ALERT LÅDA
+            noTextP.textContent = "SKRIV I NÅGOT I RUTAN! KAN INTE HA EN TOM TEXT";         //skrivs de här ut om inget är i rutan
             return;         //return vad mer finns de att säga
         }
 
