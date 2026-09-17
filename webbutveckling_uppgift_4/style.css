@@ -12,6 +12,11 @@ label{
     font-weight: bold;
 }
 
+p{
+    color: red;
+    font-weight: bold;
+}
+
 /*LISTAN*/
 li {    
     padding: 8px;
@@ -21,6 +26,7 @@ li {
     cursor: pointer;
 }
 
+/*LIST WRAPPER så soptunnan är åt höger*/
 .li-wrapper{
     display:flex;
     justify-content: space-between;
